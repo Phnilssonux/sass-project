@@ -11,6 +11,49 @@ body {
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+}
+
+
+.project-text {
+    width: 635px;
+    max-width: 100%;
+    min-height: 22px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.details-text1 {
+    margin-top: 20px;
+}
+
+.details-text2 {
+    margin-top: 20px;
+    font-style: bold;
+}
+
+.project-img {
+    margin-top: 60px;
+}
+
+.img-text {
+    margin-top: 45px;
+}
+
+.project-grid {
+    margin-top: 45px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 31.5% 31.5% 31.5%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 114px;
 }
