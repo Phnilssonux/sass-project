@@ -1,0 +1,132 @@
+body {
+  margin-top: 30px;
+  margin-left: 125px;
+  margin-right: 125px;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  min-height: 3840px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  min-height: 190px;
+  margin-top: 96px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.title-colour {
+  color: #4A4FF2;
+}
+
+.title-text {
+  color: #4A4FF2;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr 10px 1fr 10px 1fr 10px 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  width: 1100px;
+  min-height: 1960px;
+  margin-top: 144px;
+}
+
+.grid-container > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-container > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-container > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.grid-container > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.grid-container > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.grid-container > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+.grid-container > *:nth-child(7) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+
+.grid-container > *:nth-child(8) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-container > *:nth-child(9) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+}
+
+.grid-container > *:nth-child(10) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+}
+
+.grid-container > *:nth-child(11) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 3;
+}
+
+.grid-container > *:nth-child(12) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 5;
+}
+
+.group-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1079px;
+  width: 100%;
+  min-height: 106px;
+  margin-top: 90px;
+}
