@@ -5,6 +5,8 @@ body {
     padding: 0;
     font-family: "Mulish", sans-serif;
     min-height: 3840px;
+    width: 1110px;
+    max-width: 100%;
 }
 
 header {
@@ -46,8 +48,80 @@ header {
 
 .group-text {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     max-width: 1079px;
     width: 100%;
     min-height: 106px;
     margin-top: 90px;
+}
+
+.group-text1 {
+    max-width: 560px;
+    width: 100%;
+}
+
+
+.divider-img1 {
+    margin-top: 110px;
+}
+
+
+.awards-container1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.awards-info1 {
+    width: 120px;
+}
+
+.awards-container2 {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.awards-text2 {
+    margin-left: 330px;
+}
+
+.awards-info2 {
+    width: 120px;
+}
+
+.awards-container3 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.awards-text3 {
+    margin-right: 30px;
+}
+
+.awards-info3 {
+    width: 120px;
+}
+
+.awards-container4 {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+
+.awards-text4 {
+    margin-left: 330px;
+}
+
+.awards-info4 {
+    width: 120px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 114px;
 }
